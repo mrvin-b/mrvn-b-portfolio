@@ -10,17 +10,12 @@ module.exports = {
       },
 
       colors: {
-         transparent: 'transparent',
-         current: 'currentColor',
-         'white': '#ffffff',
-         'green': '#28ce52',
-         'darkGray': '#545454',
-         'transparentBlack': 'rgba(0,0,0, 0.9)',
+         'dark-gray': '#505050',
+         'border-color': "#E0E0E0",
+         'light-green': "#93D868",
+         'cyan': "#68D8D1",
+         'blue': "#6895D8",
       },
-
-      fontFamily: {
-         'sans': ['"Inter"']
-      }
      },
    },
    plugins: [],

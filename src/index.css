@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins";
+}
+
+.hero-bg {
+  background-color: #ffffff;
+  background-image: linear-gradient(
+      #cccccc68 1.2000000000000002px,
+      transparent 1.2000000000000002px
+    ),
+    linear-gradient(
+      to right,
+      #cccccc68 1.2000000000000002px,
+      #ffffff 1.2000000000000002px
+    );
+  background-size: 24px 24px;
+}
+
+
+.gradient-text {
+  background: linear-gradient(45deg, #93D868, #68D8D1, #6895D8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
